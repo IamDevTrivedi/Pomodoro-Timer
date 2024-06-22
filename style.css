@@ -77,6 +77,12 @@ nav div:nth-child(2) {
     border-radius: 15px;
     border: none;
     margin: 20px;
+    cursor: pointer;
+}
+
+.button-box button:hover{
+    transform: scale(1.05);
+    transition: transform 0.5s;
 }
 
 .active-option {
